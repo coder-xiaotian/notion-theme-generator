@@ -100,7 +100,7 @@ function MyApp({Component, pageProps}: AppProps) {
         }}>
           <>
             <StyleConfig/>
-            <div ref={pageRef} className="inline-block h-full align-top overflow-auto">
+            <div ref={pageRef} className="inline-block w-3/4 h-full align-top overflow-auto">
               <Component {...pageProps} />
             </div>
             <Popover
